@@ -1,0 +1,11 @@
+logs
+*.log
+.grunt
+/node_modules
+npm-debug.log
+/coverage/
+config/appConfig.properties
+package-lock.json
+Reports
+.vscode/
+.gitconfig

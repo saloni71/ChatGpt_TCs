@@ -1,0 +1,40 @@
+{
+  "name": "angular-ui-tests",
+  "version": "1.0.0",
+  "description": "Angular UI tests ",
+  "scripts": {
+    "clean": "rimraf Reports",
+    "test-head": "npm run clean && wdio run wdio.conf.js"
+  },
+  "author": "CHATGPT",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "@wdio/cli": "^8.15.5",
+    "@wdio/cucumber-framework": "^8.15.4",
+    "@wdio/local-runner": "^8.15.4",
+    "@wdio/spec-reporter": "^8.15.0",
+    "geckodriver": "^4.2.1",
+    "global-agent": "^3.0.0",
+    "multiple-cucumber-html-reporter": "^3.4.0",
+    "supertest": "^4.0.2",
+    "typescript": "^5.1.6",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-cucumberjs-json-reporter": "^5.1.6",
+    "wdio-geckodriver-service": "^5.0.2",
+    "wdio-wait-for": "^2.2.5"
+  },
+  "dependencies": {
+    "@types/mocha": "^10.0.1",
+    "@wdio/types": "^8.16.12",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "chatgpt": "^5.2.5",
+    "fs-extra": "^11.1.1",
+    "node-random-name": "^1.0.1",
+    "oauth-1.0a": "^2.2.6",
+    "properties-reader": "^2.2.0",
+    "puppeteer": "^21.5.2",
+    "randomstring": "^1.2.3"
+  }
+}
