@@ -16,6 +16,7 @@ When("Click on New chat and enter text", { timeout: 120 * 1000 }, async () => {
 })
 
 
+
 When("Rename chat from left panel", { timeout: 120 * 1000 }, async () => {
     await $("//*[contains(@class,'relative') and text()='Rename ChatGPT Test Case']//div[contains(@class,'absolute')]").click();
     await browser.pause(1000);
